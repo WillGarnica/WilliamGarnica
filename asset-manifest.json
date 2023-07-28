@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/WilliamGarnica/static/css/main.f87db60f.css",
-    "main.js": "/WilliamGarnica/static/js/main.939a5120.js",
+    "main.js": "/WilliamGarnica/static/js/main.5d82704c.js",
     "static/js/496.0320d045.chunk.js": "/WilliamGarnica/static/js/496.0320d045.chunk.js",
     "index.html": "/WilliamGarnica/index.html",
     "main.f87db60f.css.map": "/WilliamGarnica/static/css/main.f87db60f.css.map",
-    "main.939a5120.js.map": "/WilliamGarnica/static/js/main.939a5120.js.map",
+    "main.5d82704c.js.map": "/WilliamGarnica/static/js/main.5d82704c.js.map",
     "496.0320d045.chunk.js.map": "/WilliamGarnica/static/js/496.0320d045.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f87db60f.css",
-    "static/js/main.939a5120.js"
+    "static/js/main.5d82704c.js"
   ]
 }
