@@ -3,6 +3,7 @@
 https://github.com/gitname/react-gh-pages
 
 to deploy in production (github pages): npm run deploy
+
 to run in local: npm run start
 
 
