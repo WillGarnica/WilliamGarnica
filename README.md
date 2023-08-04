@@ -1,5 +1,4 @@
-# About Github Pages
-
+# About Github Pages see:
 https://github.com/gitname/react-gh-pages
 
 to deploy in production (github pages): npm run deploy
