@@ -1,4 +1,4 @@
-import { DialogActions, DialogTitle } from '@mui/material';
+import { Container, DialogActions, DialogTitle } from '@mui/material';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import React from 'react';
@@ -32,13 +32,16 @@ const App: React.FC = () => {
           onClose={() => { setOpenDialogAboutThisPage(false) }}
           open={openDialogAboutThisPage}>
           <DialogTitle>About this page</DialogTitle>
-
-          <DialogActions>
-            <Button
-              onClick={() => { setOpenDialogAboutThisPage(false) }}
-              autoFocus>Close</Button>
-          </DialogActions>
-
+          <Container>
+            App made in React v18.
+            <br />
+            <br />
+            <DialogActions>
+              <Button
+                onClick={() => { setOpenDialogAboutThisPage(false) }}
+                autoFocus>Close</Button>
+            </DialogActions>
+          </Container>
         </Dialog>
 
 
