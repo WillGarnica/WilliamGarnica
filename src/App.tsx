@@ -33,9 +33,9 @@ const App: React.FC = () => {
           open={openDialogAboutThisPage}>
           <DialogTitle>About this page</DialogTitle>
           <Container>
-            App made in React v18.
-            <br />
-            <br />
+            <p>App made in React v18.</p>
+            <p>Deployed and published using Github Pages.</p>
+            <p>Yes I know, sometimes I do things in the FrontEnd.</p>
             <DialogActions>
               <Button
                 onClick={() => { setOpenDialogAboutThisPage(false) }}
