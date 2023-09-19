@@ -1,4 +1,4 @@
-import { Container, DialogActions, DialogTitle, List, ListItem, ListItemAvatar, ListItemText } from '@mui/material';
+import { Container, DialogActions, DialogTitle, Link, List, ListItem, ListItemAvatar, ListItemText } from '@mui/material';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import React from 'react';
@@ -13,22 +13,33 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Hi. I'm <h2>William Garnica</h2></p>
 
-        <p><h1>Backend developer!</h1></p>
+        <section id="home" >
+          <p>Hi. I'm <h2>William Garnica</h2></p>
 
-        <div>
-          <Button variant="contained"
-            style={{ textTransform: 'none' , margin:15 }}
-            target="blank"
-            href="https://www.linkedin.com/in/william-garnica-70b93a196">
-            My Linkedin
-          </Button>
+          <p><h1>Backend developer!</h1></p>
 
-          <Button variant="outlined" onClick={() => { setOpenDialogAboutThisPage(true) }}>
-            About this page
-          </Button>
-        </div>
+          <div>
+            <Button variant="contained"
+              style={{ textTransform: 'none', margin: 15 }}
+              target="blank"
+              href="https://www.linkedin.com/in/william-garnica-70b93a196">
+              My Linkedin
+            </Button>
+
+            <Button variant="outlined" onClick={() => { setOpenDialogAboutThisPage(true) }}>
+              About this page
+            </Button>
+
+            <br />
+            <a href='#my-knowledge' >
+              <Button variant="outlined" >
+                My knowledge
+              </Button>
+            </a>
+          </div>
+
+        </section>
 
         <Dialog
           onClose={() => { setOpenDialogAboutThisPage(false) }}
@@ -49,44 +60,50 @@ const App: React.FC = () => {
 
         <br />
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <h1>My knowledge</h1>
 
-        <List>
-          <ListItem style={{ backgroundColor: 'white' }}>
-            <ListItemAvatar>
-              <Avatar alt="J" src="%PUBLIC_URL%/logo192.png"   />
-            </ListItemAvatar>
-            <ListItemText primary="Java" secondary="10 years of experience" style={{ color: 'black' }} />
-          </ListItem>
+        <section id="my-knowledge" >
+          <List>
+            <ListItem style={{ backgroundColor: 'white' }}>
+              <ListItemAvatar>
+                <Avatar alt="J" src="%PUBLIC_URL%/logo192.png" />
+              </ListItemAvatar>
+              <ListItemText primary="Java" secondary="10 years of experience" style={{ color: 'black' }} />
+            </ListItem>
 
-          <ListItem style={{ backgroundColor: 'white' }}>
-            <ListItemAvatar>
-              <Avatar alt="S" src="./img/linkedin_icon_135436.png" />
-            </ListItemAvatar>
-            <ListItemText primary="Spring Framework" secondary="5 years of experience" style={{ color: 'black' }} />
-          </ListItem>
+            <ListItem style={{ backgroundColor: 'white' }}>
+              <ListItemAvatar>
+                <Avatar alt="S" src="./img/linkedin_icon_135436.png" />
+              </ListItemAvatar>
+              <ListItemText primary="Spring Framework" secondary="5 years of experience" style={{ color: 'black' }} />
+            </ListItem>
 
-          <ListItem style={{ backgroundColor: 'white' }}>
-            <ListItemAvatar>
-              <Avatar alt="M" src="./src/img/linkedin_icon_135436.png" />
-            </ListItemAvatar>
-            <ListItemText primary="Microservices" secondary="5 years of experience" style={{ color: 'black' }} />
-          </ListItem>
+            <ListItem style={{ backgroundColor: 'white' }}>
+              <ListItemAvatar>
+                <Avatar alt="M" src="./src/img/linkedin_icon_135436.png" />
+              </ListItemAvatar>
+              <ListItemText primary="Microservices" secondary="5 years of experience" style={{ color: 'black' }} />
+            </ListItem>
 
-          <ListItem style={{ backgroundColor: 'white' }}>
-            <ListItemAvatar>
-              <Avatar alt="DP" src="../src/img/linkedin_icon_135436.png" />
-            </ListItemAvatar>
-            <ListItemText primary="Design patterns" secondary="7 years of experience" style={{ color: 'black' }} />
-          </ListItem>
+            <ListItem style={{ backgroundColor: 'white' }}>
+              <ListItemAvatar>
+                <Avatar alt="DP" src="../src/img/linkedin_icon_135436.png" />
+              </ListItemAvatar>
+              <ListItemText primary="Design patterns" secondary="7 years of experience" style={{ color: 'black' }} />
+            </ListItem>
 
-          <ListItem style={{ backgroundColor: 'white' }}>
-            <ListItemAvatar>
-              <Avatar alt="J" src="../public/linkedin_icon_135436.png" />
-            </ListItemAvatar>
-            <ListItemText primary="Junit / Mockito" secondary="5 years of experience" style={{ color: 'black' }} />
-          </ListItem>
-        </List>
+            <ListItem style={{ backgroundColor: 'white' }}>
+              <ListItemAvatar>
+                <Avatar alt="J" src="../public/linkedin_icon_135436.png" />
+              </ListItemAvatar>
+              <ListItemText primary="Junit / Mockito" secondary="5 years of experience" style={{ color: 'black' }} />
+            </ListItem>
+          </List>
+        </section>
 
         <br />
 
