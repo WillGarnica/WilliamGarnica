@@ -50,6 +50,7 @@ const App: React.FC = () => {
             <p>Typescript: 5.1.6</p>
             <p>Deployed and published using Github Pages.</p>
             <p>Yes I know, sometimes I do things in the FrontEnd.</p>
+            <p><Link href="https://github.com/WillGarnica/WilliamGarnica" target='blank'>Github repository</Link></p>
             <DialogActions>
               <Button
                 onClick={() => { setOpenDialogAboutThisPage(false) }}
@@ -58,8 +59,6 @@ const App: React.FC = () => {
           </Container>
         </Dialog>
 
-        <br />
-        <br />
         <br />
         <br />
         <br />
