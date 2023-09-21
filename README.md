@@ -1,3 +1,11 @@
+# About Github Pages see:
+https://github.com/gitname/react-gh-pages
+
+to deploy in production (github pages): npm run deploy
+
+to run in local: npm run start
+
+
 # GitHub Codespaces ♥️ React
 
 Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
