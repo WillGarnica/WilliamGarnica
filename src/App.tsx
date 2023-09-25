@@ -7,16 +7,11 @@ import MyKnowledge from './components/myKnowledge/MyKnowledge';
 
 const App: React.FC = () => {
   return (
-    <div className="App App-header">
+    <div >
+
       <Header />
-
-      <section id="home" >
-        <Home />
-      </section>
-
-      <section id="my-knowledge" >
-        <MyKnowledge />
-      </section>
+      <Home />
+      <MyKnowledge />
 
     </div >
   );
