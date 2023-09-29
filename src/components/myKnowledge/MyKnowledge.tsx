@@ -11,21 +11,21 @@ const MyKnowledge = () => {
                 <List>
                     <ListItem style={{ backgroundColor: 'white' }}>
                         <ListItemAvatar>
-                            <Avatar alt="J" src="%PUBLIC_URL%/logo192.png" />
+                        <Avatar alt="J" src="https://en.wikipedia.org/static/images/icons/wikipedia.png" />
                         </ListItemAvatar>
                         <ListItemText primary="Java" secondary="10 years of experience" style={{ color: 'black' }} />
                     </ListItem>
 
                     <ListItem style={{ backgroundColor: 'white' }}>
                         <ListItemAvatar>
-                            <Avatar alt="S" src="./img/linkedin_icon_135436.png" />
+                            <Avatar alt="S" src="./img/icons/linkedin_icon_135436.png" />
                         </ListItemAvatar>
                         <ListItemText primary="Spring Framework" secondary="5 years of experience" style={{ color: 'black' }} />
                     </ListItem>
 
                     <ListItem style={{ backgroundColor: 'white' }}>
                         <ListItemAvatar>
-                            <Avatar alt="M" src="./src/img/linkedin_icon_135436.png" />
+                            <Avatar alt="M" src="linkedin_icon_135436.png" />
                         </ListItemAvatar>
                         <ListItemText primary="Microservices" secondary="5 years of experience" style={{ color: 'black' }} />
                     </ListItem>

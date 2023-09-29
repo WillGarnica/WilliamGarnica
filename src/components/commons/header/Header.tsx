@@ -1,7 +1,6 @@
-import React from 'react';
 
+import { Button } from '@mui/material';
 import './Header.css';
-import { AppBar, Button, IconButton, Link, Toolbar, Typography } from '@mui/material';
 
 const Header = () => {
     return (
@@ -14,10 +13,7 @@ const Header = () => {
             </div>
 
             <div id='movil-menu' className='movil-menu'>
-               
-
             </div>
-
 
         </div>
     );
