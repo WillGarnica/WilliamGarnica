@@ -1,6 +1,7 @@
 
 import { Avatar, List, ListItem, ListItemAvatar, ListItemText } from '@mui/material';
 import './MyKnowledge.css';
+import IconJavaSvg from '../../svg/IconJavaSvg';
 
 const MyKnowledge = () => {
 
@@ -11,7 +12,7 @@ const MyKnowledge = () => {
                 <List>
                     <ListItem style={{ backgroundColor: 'white' }}>
                         <ListItemAvatar>
-                        <Avatar alt="J" src="https://en.wikipedia.org/static/images/icons/wikipedia.png" />
+                            <Avatar><IconJavaSvg width='30'/></Avatar>
                         </ListItemAvatar>
                         <ListItemText primary="Java" secondary="10 years of experience" style={{ color: 'black' }} />
                     </ListItem>

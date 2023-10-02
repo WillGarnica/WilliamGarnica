@@ -1,7 +1,6 @@
 
 import { Button, Container, Dialog, DialogActions, DialogTitle, Link } from '@mui/material';
 import React from 'react';
-import IconLinkedinSvg from '../../svg/IconLinkedinSvg';
 import './Home.css';
 
 const Home = () => {
@@ -16,7 +15,6 @@ const Home = () => {
 
                 <div>
                     <Button variant="contained"
-                        endIcon={<IconLinkedinSvg />}
                         style={{ textTransform: 'none', margin: 15 }}
                         target="blank"
                         href="https://www.linkedin.com/in/william-garnica-70b93a196">
