@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/WilliamGarnica/static/css/main.31eb88d9.css",
-    "main.js": "/WilliamGarnica/static/js/main.0be8be14.js",
+    "main.js": "/WilliamGarnica/static/js/main.afc9efc7.js",
     "static/js/496.d7cb4557.chunk.js": "/WilliamGarnica/static/js/496.d7cb4557.chunk.js",
+    "static/media/IconMicroservices.svg": "/WilliamGarnica/static/media/IconMicroservices.f561533492164078f1640a875bcc726b.svg",
+    "static/media/IconJava.svg": "/WilliamGarnica/static/media/IconJava.3dec1fe704244f3cf61d9c1aa9e5707c.svg",
+    "static/media/IconUnitTesting.svg": "/WilliamGarnica/static/media/IconUnitTesting.12962df0f697cab31180a20da86cfb4d.svg",
+    "static/media/IconDesingPatters.svg": "/WilliamGarnica/static/media/IconDesingPatters.8cdedf22c5ee9e37ea1daea501a914cd.svg",
+    "static/media/IconSpringFramework.svg": "/WilliamGarnica/static/media/IconSpringFramework.b39d866ef15303bd4182807431613051.svg",
     "index.html": "/WilliamGarnica/index.html",
     "main.31eb88d9.css.map": "/WilliamGarnica/static/css/main.31eb88d9.css.map",
-    "main.0be8be14.js.map": "/WilliamGarnica/static/js/main.0be8be14.js.map",
+    "main.afc9efc7.js.map": "/WilliamGarnica/static/js/main.afc9efc7.js.map",
     "496.d7cb4557.chunk.js.map": "/WilliamGarnica/static/js/496.d7cb4557.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31eb88d9.css",
-    "static/js/main.0be8be14.js"
+    "static/js/main.afc9efc7.js"
   ]
 }
