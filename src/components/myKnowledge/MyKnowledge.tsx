@@ -1,46 +1,49 @@
 
 import { Avatar, List, ListItem, ListItemAvatar, ListItemText } from '@mui/material';
-import './MyKnowledge.css';
-import IconJavaSvg from '../../svg/IconJavaSvg';
+import './MyKnowledge.css';  
+import IconJava from "../../svg/IconJava.svg";   
+import IconMicroservices from "../../svg/IconMicroservices.svg";
+import IconSpringFramework from "../../svg/IconSpringFramework.svg";
+import IconUnitTesting from "../../svg/IconUnitTesting.svg";
+import IconDesingPatters from "../../svg/IconDesingPatters.svg";  
 
 const MyKnowledge = () => {
-
-    return (
+    return (   
         <section id="my-knowledge" >
             <div className="App App-header">
                 <h1>My knowledge</h1>
                 <List>
                     <ListItem style={{ backgroundColor: 'white' }}>
                         <ListItemAvatar>
-                            <Avatar><IconJavaSvg width='30'/></Avatar>
+                            <Avatar><img src={IconJava} /></Avatar>
                         </ListItemAvatar>
                         <ListItemText primary="Java" secondary="10 years of experience" style={{ color: 'black' }} />
                     </ListItem>
 
                     <ListItem style={{ backgroundColor: 'white' }}>
                         <ListItemAvatar>
-                            <Avatar alt="S" src="./img/icons/linkedin_icon_135436.png" />
+                            <Avatar><img src={IconSpringFramework} /></Avatar>
                         </ListItemAvatar>
                         <ListItemText primary="Spring Framework" secondary="5 years of experience" style={{ color: 'black' }} />
                     </ListItem>
 
                     <ListItem style={{ backgroundColor: 'white' }}>
                         <ListItemAvatar>
-                            <Avatar alt="M" src="linkedin_icon_135436.png" />
+                            <Avatar><img src={IconMicroservices} /></Avatar>
                         </ListItemAvatar>
                         <ListItemText primary="Microservices" secondary="5 years of experience" style={{ color: 'black' }} />
                     </ListItem>
 
                     <ListItem style={{ backgroundColor: 'white' }}>
                         <ListItemAvatar>
-                            <Avatar alt="DP" src="../src/img/linkedin_icon_135436.png" />
+                            <Avatar><img src={IconDesingPatters} /></Avatar>
                         </ListItemAvatar>
                         <ListItemText primary="Design patterns" secondary="7 years of experience" style={{ color: 'black' }} />
                     </ListItem>
 
                     <ListItem style={{ backgroundColor: 'white' }}>
                         <ListItemAvatar>
-                            <Avatar alt="J" src="../public/linkedin_icon_135436.png" />
+                            <Avatar><img src={IconUnitTesting} /></Avatar>
                         </ListItemAvatar>
                         <ListItemText primary="Junit / Mockito" secondary="5 years of experience" style={{ color: 'black' }} />
                     </ListItem>
